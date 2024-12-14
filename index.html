@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="utility.css" />
+    <title>Spotify Clone</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img class="invert" src="logo.svg" alt="" />
+      </div>
+      <div class="home">
+        <img class="homeimg invert" src="home.svg" alt="" />
+        <input
+          type="text"
+          placeholder="What do you want to play ?"
+          class="search"
+        />
+        <img class="browse invert" src="browse.svg" alt="" />
+      </div>
+      <div class="navlast">
+        <button class="sign">Sign Up</button>
+        <button class="login">Login</button>
+      </div>
+    </nav>
+    <div class="container flex">
+      <div class="left">
+        <div class="yourlibrary">
+          <img class="invert" src="library.svg" alt="" />
+          <h1>Your Library</h1>
+          <img class="invert" src="plus.svg" alt="" />
+        </div>
+        <div class="library">
+          <div class="fst">
+            <span id="playlist"> Your Playlist</span>
+            <!-- <span>It's easy, we'll help you</span>
+            <button>Create Playlist</button> -->
+            <ul>
+              <!-- <li>
+                <div class="song-icon">
+                  <img class="invert" src="song-icon.svg" alt="">
+                </div>
+                <div class="info">
+                  <span class="track_name" >Song Name</span>
+                  <span>Artist</span>
+                </div>
+                <div class="playnow">
+                  <img class="invert" src="playnow.svg" alt="">
+                </div>
+                 <div class="react">
+                <img class="invert" like" src="like.svg" alt="">
+                <img class="invert" dislike" src="dislike.svg" alt="">
+              </div>
+              </li> -->
+              
+            </ul>
+          </div>
+          <div class="sec">
+            <span>Let's find some podcasts to follow</span>
+            <span>We'll keep you updated on new episodes</span>
+            <button>Browse podcasts</button>
+          </div>
+        </div>
+        <div class="left-footer">
+          <div class="footer-elm">Legal</div>
+          <div class="footer-elm">Safety & Privacy Center</div>
+          <div class="footer-elm">Privacy Policy</div>
+          <div class="footer-elm">Cookies</div>
+          <div class="footer-elm">About Ads</div>
+          <div class="footer-elm">Accessibility</div>
+        </div>
+        <div class="cookies"><a href="#">Cookies</a></div>
+        <div class="lang">
+          <button>
+            <img src="lang.svg" alt="img" />
+            <p>English</p>
+          </button>
+        </div>
+      </div>
+      <div class="right">
+        <div class="popular-artists">
+          <div class="head">
+            <h1><a href="#">Popular Albums</a></h1>
+            <div class="showall">
+              <h2><a href="#">Show all</a></h2>
+            </div>
+          </div>
+          <div class="card card2"></div>
+        </div>
+        <div class="seperation"></div>
+        <div class="popular-artists">
+          <div class="head">
+            <h1><a href="#">Popular Artists</a></h1>
+            <div class="showall">
+              <h2><a href="#">Show all</a></h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="c1 cpreview">
+              <div class="play">
+                <img
+                class="play-img"
+                src="https://cdn.hugeicons.com/icons/play-solid-sharp.svg"
+                alt=""
+                />
+              </div>
+              <img
+              class="singer-pic"
+              src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca"
+              alt=""
+              />
+              <div class="txt">
+                <p>Pritam</p>
+                <a href="#">Artist</a>
+              </div>
+            </div>
+            <div  class="c2 cpreview">
+              <div class="play">
+                <img
+                class="play-img"
+                src="https://cdn.hugeicons.com/icons/play-solid-sharp.svg"
+                alt=""
+                />
+              </div>
+              <img
+              class="singer-pic"
+              src="https://i.scdn.co/image/ab6761610000e5ebb19af0ea736c6228d6eb539c"
+              alt=""
+              />
+              <div class="txt">
+                <p>A.R. Rahman</p>
+                <a href="#">Artist</a>
+              </div>
+            </div>
+            <div class="c3 cpreview">
+              <div class="play">
+                <img
+                class="play-img"
+                src="https://cdn.hugeicons.com/icons/play-solid-sharp.svg"
+                alt=""
+                />
+              </div>
+              <img
+                  class="singer-pic"
+                  src="https://i.scdn.co/image/ab67616d0000b273156f9ab02be895a9be3de100"
+                  alt=""
+                />
+                <div class="txt">
+                  <p>Arijit Singh</p>
+                  <a href="#">Artist</a>
+                </div>
+              </div>
+              <div class="c4 cpreview">
+                <div class="play">
+                  <img
+                    class="play-img"
+                    src="https://cdn.hugeicons.com/icons/play-solid-sharp.svg"
+                    alt=""
+                  />
+                </div>
+                <img
+                  class="singer-pic"
+                  src="https://i.scdn.co/image/ab676161000051749107d8873f80a26b36f2418e"
+                  alt=""
+                />
+                <div class="txt">
+                  <p>Sachin-Jigar</p>
+                  <a href="#">Artist</a>
+                </div>
+              </div>
+              <div class="c2 cpreview">
+                <div class="play">
+                  <img
+                    class="play-img"
+                    src="https://cdn.hugeicons.com/icons/play-solid-sharp.svg"
+                    alt=""
+                  />
+                </div>
+                <img
+                  class="singer-pic"
+                  src="https://i.scdn.co/image/ab6761610000e5ebb19af0ea736c6228d6eb539c"
+                  alt=""
+                />
+                <div class="txt">
+                  <p>A.R. Rahman</p>
+                  <a href="#">Artist</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="seperation"></div>
+        <div class="right-footer">
+          <div class="faq">
+            <div class="grid-item">
+              <p>Company</p>
+              <a href="#">About</a><a href="#">Jobs</a
+              ><a href="#">For the Record</a>
+            </div>
+            <div class="grid-item">
+              <p>Communities</p>
+              <a href="#">For Artists</a><a href="#">Developers</a
+              ><a href="#">Advertising</a><a href="#">Investors</a
+              ><a href="#">Vendors</a>
+            </div>
+            <div class="grid-item">
+              <p>Useful links</p>
+              <a href="#">Support</a><a href="#">Free Mobile App</a>
+            </div>
+            <div class="grid-item">
+              <p>Spotify Plans</p>
+              <a href="#">Premium</a><a href="#">Indivisual</a
+              ><a href="#">Premium duo</a><a href="#">Premium Family</a
+              ><a href="#">Premium Student</a><a href="#">Spotify free</a>
+            </div>
+            
+          </div>
+          <div class="social">
+           <div class="so-img"><img src="insta.svg" alt="" /></div>
+           <div class="so-img"><img src="twitter.svg" alt="" /></div>
+           <div class="so-img"><img src="fb.svg" alt="" /></div>
+          </div>
+        </div>
+
+
+        <div class="divide"></div>
+
+        <div class="copyright">
+          © 2024 Spotify AB
+        </div>
+      </div>
+      <div class="new">
+        <div class="new-txt">
+          <h4>Preview of Spotify</h4>
+          <p class="prefinish">Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+        <div class="new-signup">
+          <button><p class="finish">Sign up Free</p></button>
+        </div>
+      </div>
+    </div>
+    <div class="playbar">
+      <div class="seekbar">
+        <div class="circle"></div>
+      </div>
+      <div class="stitle"></div>
+      <div class="ppnbtn">
+        <img class="icon" id="previous" src="previous.svg" alt="img">
+        <img class="icon" id="play" src="playicon.svg" alt="img">
+        <img class="icon" id="next" src="next.svg" alt="img">
+      </div>
+      <div class="duration "></div>
+      <div class="volume">
+        <img src="volume.svg" alt="">
+        <div class="range">
+          <input type="range" class="timevol">
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

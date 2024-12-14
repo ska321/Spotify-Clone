@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+.container{
+    display: flex;
+}
+
+.left{
+    width: 25vw;
+    height: 450px;
+    color: rgb(207, 207, 207);
+    padding: 5px;
+    display: inline;
+    position: relative;
+    background-color: #121212;
+    border-radius: 10px;
+    margin: 14px 7px 14px 14px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.right{
+    width: 69.3vw;
+    color: rgb(207, 207, 207);
+    height: 460px;
+    background-color: #121212;
+    border-radius: 10px;
+    margin: 14px 14px 14px 7px;
+    overflow: auto;
+    overflow-x: hidden;
+    scrollbar-color: #5a5a5a8b transparent;
+}
+
+nav{
+    width: 98.5vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav img{
+    padding: 0px;
+    padding-left:7px;
+}
+
+.logo{
+    
+}
+
+.home{
+    margin: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.homeimg{
+
+}
+
+.search{
+    width: 40vw;
+    height: 8vh;
+    border: none;
+    border-radius: 40px;
+    position: relative;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.navlast{
+    display: flex;
+    gap: 25px;
+    padding: 0px 15px;
+}
+
+.navlast .sign{
+    background-color: transparent;
+    border: none;
+    font-family: "SUSE";
+    font-weight: 800;
+    font-size: 18px;
+    color: white;
+}
+
+.navlast .login{
+    border: 1px solid black;
+    font-family: "SUSE";
+    font-weight: 700;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 30px;
+    width: 8vw;
+    height: 8vh;
+}
+
+
+.srch{
+    position: absolute;
+}
+
+.yourlibrary{
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.yourlibrary h1{
+    font-family: "SUSE";
+    font-weight: 700;
+    font-size: 18px;
+    margin: auto;
+    
+}
+
+.library{
+    display: flex;
+    margin-top: 20px;
+    width: 24vw;
+    height: 35vh;
+    padding: 5px;
+    overflow: auto;
+    flex-direction: column;
+    gap: 30px;
+    overflow-x: hidden;
+    scrollbar-color: #5a5a5a8b transparent;
+    
+}
+
+footer{
+    padding: 0;
+    margin: 0;
+    height: 10vh;
+    width: 25vw;
+    background-color: rgb(255, 0, 0);
+}
+
+.fst{
+    width: 20vw;
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    margin: auto;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    word-wrap: break-word;
+}
+
+.sec{
+    width: 20vw;
+    height: 400px;
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    margin: auto;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.search::placeholder{
+    font-family: "SUSE";
+    font-weight: 400;
+    color: rgb(207, 207, 207);
+    padding: 20px;
+    font-size: 16px;
+}
+
+.fst ul{
+    font-family: "SUSE";
+    font-weight: 400;
+    color: rgb(207, 207, 207);
+    font-size: 10px;
+}
+
+.fst #playlist{
+    font-family: "SUSE";
+    font-weight: 700;
+    color: rgb(207, 207, 207);
+    font-size: 18px;
+    padding: 0;
+}
+
+.fst button{
+    border: none;
+    font-family: "SUSE";
+    font-weight: 700;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 30px;
+    width:10vw;
+    height: 5vh;
+    margin-top: 8px;
+}
+
+.sec :nth-child(1){
+    font-family: "SUSE";
+    font-weight: 700;
+    color: rgb(207, 207, 207);
+    font-size: 16px;
+}
+
+.sec :nth-child(2){
+    font-family: "SUSE";
+    font-weight: 400;
+    color: rgb(207, 207, 207);
+    font-size: 14px;
+}
+
+.sec button{
+    border: none;
+    font-family: "SUSE";
+    font-weight: 700;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 30px;
+    width:11vw;
+    height: 5vh;
+    margin-top: 8px;
+}
+
+.right h1 a{
+    color: white;
+    font-family: "SUSE";
+    font-weight: 900;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.right h1{
+    padding-left: 30px;
+    margin-top: 25px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    padding-left: 8px;   
+    padding-top: 14px;
+    height: 281px;
+    width: 69vw;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.txt p{
+    color: white;
+    font-family: "SUSE";
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.txt a{
+    color: white;
+    font-family: "SUSE";
+    font-weight: 200;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.c a:hover{
+    text-decoration:underline;
+}
+
+.play-img{
+    color: white;
+    position: relative;
+    filter: brightness(100) invert(1);
+    padding: 14px;
+    z-index: 10;
+    
+}
+.play{
+    width: 45px; /* Adjust size as needed */
+    height: 45px; /* Adjust size as needed */
+    background-color: #1ed760;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 9;
+    left: 130px;
+    top: 150px;
+    transition: 0.1s ease-in-out;
+    opacity: 0;
+}
+.head{
+    font-family: "SUSE";
+    font-weight: 900;
+    font-size: 9px;
+    display: flex;
+    flex-direction: row;
+    gap:45vw;
+    align-items: center;
+}
+.showall{
+    padding-top: 30px;
+
+}
+
+.right h2 a{
+    color: #b3b3b3;
+    text-decoration: none;
+}
+.finish p{
+    font-family: "SUSE";
+    font-weight: 700;
+    font-size: 9px;
+    color: black;
+}
+
+.playbar{
+    padding:12px;
+    display: flex;
+    position: fixed;
+    bottom:2%;
+    left: 20px;
+    right:20px;
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 1rem rgb(0, 0, 0));
+}
+
+.ppnbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    height: 30px;
+    position: relative;
+}
+
+.stitle{
+    left: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-family: "SUSE";
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.duration{
+    right: 18%;
+    position: absolute;
+    font-family: "SUSE";
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.fst ul li{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 19vw;
+    justify-content: center;
+    gap: 20%;
+    cursor: pointer;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    font-family: "SUSE";
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    width: 100px;
+}
+.fst ul{
+    gap: 10px;
+}
+
+.info{
+    justify-content: center;
+    gap: 1px;
+    position: relative;
+}
+.track_name{
+    width: 15vw;
+    position: relative;
+    left: -35px;
+}
+.artist_name{
+    width: 15vw;
+    position: relative;
+    left: -35px;
+}
+.fst ul li:hover{
+    background: linear-gradient(360deg, rgba(191, 193, 193, 0.179) 0%, rgba(18, 18, 18, 0) 100%);
+    
+}
+.fst ul:hover{
+    filter: drop-shadow(0 0 0.70rem #000000);
+    /* .react{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        position: absolute;
+        right: 5%;
+        top: 70%;
+        transition: .2s ease-in-out;
+        opacity: 1;
+    }
+    .react img{
+        filter: drop-shadow(0 0 0.70rem #000000);
+    } */
+}
+/* .react{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    right: 5%;
+    top: 100px;
+    opacity: ;
+}
+.react img{
+    filter: drop-shadow(0 0 0.20rem #000000);
+
+}
+.react img:hover{} */
+
+.volume{
+    position: absolute;
+    right: 3%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.volume img{
+    cursor: pointer;
+}
